@@ -391,5 +391,13 @@ Setting up python-rsvg (2.32.0+dfsg-3) ...
 bertopeng17@bertopeng17-ThinkPad-T520:~$
 </pre>
 
-sudo apt-get install python-rsvg ipython
+####2. Downloading ndnSIM source
 
+The following commands download all pieces from GitHub repositories:
+<b>mkdir ndnSIM</b>
+<b>cd ndnSIM</b>
+<pre>
+git clone https://github.com/named-data-ndnSIM/ns-3-dev.git ns-3
+git clone https://github.com/named-data-ndnSIM/pybindgen.git pybindgen
+git clone --recursive https://github.com/named-data-ndnSIM/ndnSIM.git ns-3/src/ndnSIM
+</pre>
