@@ -59,8 +59,7 @@ bertopeng17@bertopeng17-ThinkPad-T520:~$ ^
 
 ####2. Dependencies for NS-3 Python bindings
 
-<div class="highlight"><pre> sudo apt-get install python-dev python-pygraphviz python-kiwi
-
+<pre> <b>bertopeng17@bertopeng17-ThinkPad-T520:~$sudo apt-get install python-dev python-pygraphviz python-kiwi</b>
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
@@ -171,7 +170,8 @@ Setting up python-pkg-resources (20.7.0-1) ...
 Setting up python-kiwi (1.9.22-4) ...
 Setting up python-pygraphviz (1.3.1-0ubuntu2) ...
 Processing triggers for libc-bin (2.23-0ubuntu3) ...
-</pre></div>
+bertopeng17@bertopeng17-ThinkPad-T520:~$
+</pre>
 sudo apt-get install python-pygoocanvas python-gnome2
 sudo apt-get install python-rsvg ipython
 
