@@ -10,7 +10,16 @@
 
 #### Linux 16.04
 
-- sudo apt-get install build-essential libsqlite3-dev libcrypto++-dev</b>
+sudo apt-get install build-essential libsqlite3-dev libcrypto++-dev
+
+##### For Ubuntu 12.04
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:boost-latest/ppa
+sudo apt-get update
+sudo apt-get install libboost1.55-all-dev
+
+##### For all other Ubuntu versions
+sudo apt-get install libboost-all-dev
 <pre>
 bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo apt-get install build-essential libsqlite3-dev libcrypto++-dev</b>
 [sudo] password for bertopeng17: 
