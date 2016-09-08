@@ -58,6 +58,11 @@ bertopeng17@bertopeng17-ThinkPad-T520:~$ ^
 </pre>
 
 ####2. Dependencies for NS-3 Python bindings
+<pre>
+sudo apt-get install python-dev python-pygraphviz python-kiwi
+sudo apt-get install python-pygoocanvas python-gnome2
+sudo apt-get install python-rsvg ipython
+</pre>
 
 <pre> <b>bertopeng17@bertopeng17-ThinkPad-T520:~$sudo apt-get install python-dev python-pygraphviz python-kiwi</b>
 Reading package lists... Done
