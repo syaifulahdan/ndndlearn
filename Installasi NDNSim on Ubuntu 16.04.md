@@ -63,3 +63,5 @@ bertopeng17@bertopeng17-ThinkPad-T520:~$ ^
 sudo apt-get install python-pygoocanvas python-gnome2
 sudo apt-get install python-rsvg ipython
 </pre></div>
+</div>
+</li>
