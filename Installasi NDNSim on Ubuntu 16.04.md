@@ -179,7 +179,7 @@ bertopeng17@bertopeng17-ThinkPad-T520:~$
 </pre>
 
 <pre>
-bertopeng17@bertopeng17-ThinkPad-T520:~$ sudo apt-get install python-pygoocanvas python-gnome2
+bertopeng17@bertopeng17-ThinkPad-T520:~$<b> sudo apt-get install python-pygoocanvas python-gnome2</b>
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
