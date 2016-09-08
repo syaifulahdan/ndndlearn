@@ -391,7 +391,7 @@ Setting up python-rsvg (2.32.0+dfsg-3) ...
 bertopeng17@bertopeng17-ThinkPad-T520:~$
 </pre>
 
-####2. Downloading ndnSIM source
+####3. Downloading ndnSIM source
 
 The following commands download all pieces from GitHub repositories:
 <b>mkdir ndnSIM</b>
@@ -400,4 +400,71 @@ The following commands download all pieces from GitHub repositories:
 git clone https://github.com/named-data-ndnSIM/ns-3-dev.git ns-3
 git clone https://github.com/named-data-ndnSIM/pybindgen.git pybindgen
 git clone --recursive https://github.com/named-data-ndnSIM/ndnSIM.git ns-3/src/ndnSIM
+</pre>
+
+
+<pre>
+bertopeng17@bertopeng17-ThinkPad-T520:~/ndnSIM$ <b>git clone https://github.com/named-data-ndnSIM/ns-3-dev.git ns-3</b>
+Cloning into 'ns-3'...
+remote: Counting objects: 122218, done.
+remote: Total 122218 (delta 0), reused 0 (delta 0), pack-reused 122218
+Receiving objects: 100% (122218/122218), 66.32 MiB | 153.00 KiB/s, done.
+Resolving deltas: 100% (87904/87904), done.
+Checking connectivity... done.
+bertopeng17@bertopeng17-ThinkPad-T520:~/ndnSIM$
+</pre>
+
+
+<pre>
+git clone https://github.com/named-data-ndnSIM/ns-3-dev.git ns-3
+git clone https://github.com/named-data-ndnSIM/pybindgen.git pybindgen
+git clone --recursive https://github.com/named-data-ndnSIM/ndnSIM.git ns-3/src/ndnSIM
+</pre>
+
+<pre>
+bertopeng17@bertopeng17-ThinkPad-T520:~/ndnSIM$ <b>git clone https://github.com/named-data-ndnSIM/pybindgen.git pybindgen</b>
+Cloning into 'pybindgen'...
+remote: Counting objects: 5874, done.
+remote: Total 5874 (delta 0), reused 0 (delta 0), pack-reused 5874
+Receiving objects: 100% (5874/5874), 10.92 MiB | 48.00 KiB/s, done.
+Resolving deltas: 100% (4008/4008), done.
+Checking connectivity... done.
+bertopeng17@bertopeng17-ThinkPad-T520:~/ndnSIM$ <b>
+</pre>
+
+
+
+<pre>
+bertopeng17@bertopeng17-ThinkPad-T520:~/ndnSIM$ <b>git clone --recursive https://github.com/named-data-ndnSIM/ndnSIM.git ns-3/src/ndnSIM</b>
+Cloning into 'ns-3/src/ndnSIM'...
+remote: Counting objects: 14961, done.
+remote: Total 14961 (delta 0), reused 0 (delta 0), pack-reused 14961
+Receiving objects: 100% (14961/14961), 8.42 MiB | 258.00 KiB/s, done.
+Resolving deltas: 100% (9334/9334), done.
+Checking connectivity... done.
+Submodule 'NFD' (https://github.com/named-data-ndnSIM/NFD) registered for path 'NFD'
+Submodule 'ndn-cxx' (https://github.com/named-data-ndnSIM/ndn-cxx) registered for path 'ndn-cxx'
+Cloning into 'NFD'...
+remote: Counting objects: 7175, done.
+remote: Total 7175 (delta 0), reused 0 (delta 0), pack-reused 7175
+Receiving objects: 100% (7175/7175), 2.91 MiB | 158.00 KiB/s, done.
+Resolving deltas: 100% (5287/5287), done.
+Checking connectivity... done.
+Submodule path 'NFD': checked out 'bd8eea71137bc382fe1fb8225334b926a5484527'
+Submodule 'websocketpp' (https://github.com/zaphoyd/websocketpp.git) registered for path 'websocketpp'
+Cloning into 'websocketpp'...
+remote: Counting objects: 11860, done.
+remote: Total 11860 (delta 0), reused 0 (delta 0), pack-reused 11860
+Receiving objects: 100% (11860/11860), 8.54 MiB | 74.00 KiB/s, done.
+Resolving deltas: 100% (7148/7148), done.
+Checking connectivity... done.
+Submodule path 'NFD/websocketpp': checked out 'ac5d7ea5af9734de965688b54a7860259887b537'
+Cloning into 'ndn-cxx'...
+remote: Counting objects: 18413, done.
+remote: Total 18413 (delta 0), reused 0 (delta 0), pack-reused 18413
+Receiving objects: 100% (18413/18413), 9.06 MiB | 42.00 KiB/s, done.
+Resolving deltas: 100% (12644/12644), done.
+Checking connectivity... done.
+Submodule path 'ndn-cxx': checked out '36ec104e23ba5395a8b4df411b776cdbef9c5cd4'
+
 </pre>
