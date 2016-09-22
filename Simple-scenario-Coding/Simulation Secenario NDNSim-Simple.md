@@ -13,4 +13,4 @@ root@bertopeng17-ThinkPad-T520:/home/bertopeng17/ndnSIM/ns-3# <b>./waf --run=ndn
 -  Clik <b> Simulate (F3)<b/> Button.
 
 
-![alt tag](https://github.com/syaifulahdan/ndnlearn/blob/master/image/Screenshot%20from%202016-09-22%2012-26-26.png)
+![alt tag](https://github.com/syaifulahdan/ndndlearn/blob/master/image/Screenshot%20from%202016-09-22%2016-16-30.png)
