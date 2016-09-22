@@ -1,6 +1,6 @@
 #  Simple scenario
 
-The first example [[read] ](https://github.com/syaifulahdan/ndnlearn/blob/master/1.%20Installasi%20NDNSim%20on%20Ubuntu%2016.04.md) <b>(ndn-simple.cpp)</b> shows very basics of ndnSIM. In the simulated topology there are 3 nodes, connected with point-to-point links, one NDN consumer, and one NDN producer:
+The first example [[<b>(ndn-simple.cpp)</b>] ](https://github.com/syaifulahdan/ndnlearn/blob/master/1.%20Installasi%20NDNSim%20on%20Ubuntu%2016.04.md)  shows very basics of ndnSIM. In the simulated topology there are 3 nodes, connected with point-to-point links, one NDN consumer, and one NDN producer:
 
 Consumer is simulated using ConsumerCbr reference application and generates Interests towards the producer with frequency of 10 Interests per second (see ndnSIM applications).
 \Producer is simulated using Producer class, which is used to satisfy all incoming Interests with virtual payload data (1024 bytes).
